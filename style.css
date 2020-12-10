@@ -1,3 +1,17 @@
+body {
+    background-color: antiquewhite;
+}
+
+#rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+#body-text-color {
+    color: navy;
+}
+
 #hourglass {
     height: 50px;
     width: 50px;
